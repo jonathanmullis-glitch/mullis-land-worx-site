@@ -3,61 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Masonry • Mullis Land Worx</title>
-  <meta name="description" content="Mullis Land Worx — Grading, Concrete, Masonry, Landscaping in the Monroe / Charlotte NC area.">
+  <title>Masonry</title>
+  <meta name="description" content="Mullis Land Worx — Masonry">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
+
 <header class="site-header">
-  <a class="brand" href="index.html">
-    <img src='assets/logo.jpg' alt='Mullis Land Worx logo'>
-  </a>
-  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-  <nav class="site-nav">
-    <a href="grading.html">Grading</a>
-    <a href="concrete.html">Concrete</a>
-    <a href="masonry.html">Masonry</a>
-    <a href="landscaping.html">Landscaping</a>
-    <a href="contact.html" class="cta">Free Quote</a>
-  </nav>
-</header>
-<main>
-
-<section class="page-hero">
-  <h1>Masonry</h1>
-  <p>Professional, insured, and local.</p>
-</section>
-
-<section class="two-col">
-  <div>
-    <h2>What we do</h2>
-    <ul class="checklist">
-      <li>8" block, modular brick, rowlocks</li>
-<li>Retaining & planter walls (straight or radius)</li>
-<li>Steps, porches, mailbox piers</li>
-<li>Tuck‑pointing & repairs</li>
-<li>Stone veneer over CMU</li>
-    </ul>
-    <a class="btn btn-primary" href="contact.html">Get a Quote</a>
+  <div class="container flex between center">
+    <a class="brand" href="/"><img src="logo.jpg" alt="Mullis Land Worx logo" onerror="this.style.display='none';"><span>Mullis Land Worx</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="grading.html">Grading</a>
+      <a href="concrete.html">Concrete</a>
+      <a href="masonry.html">Masonry</a>
+      <a href="landscaping.html">Landscaping</a>
+      <a class="cta" href="contact.html">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Menu" onclick="toggleMenu()">☰</button>
   </div>
-  <aside class="quote-callout">
-    <h3>Typical turnaround</h3>
-    <p>Site visit in 24‑48 hrs, work scheduled ASAP.</p>
-    <h3>Service area</h3>
-    <p>Monroe • Unionville • Indian Trail • Matthews • Stallings • Mint Hill • Charlotte</p>
-    <h3>Contact</h3>
-    <p><a href="tel:+17046812667">704‑681‑2667</a><br><a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a></p>
-  </aside>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Masonry & Walls</h1>
+    <p>Block, brick, and stone done right.</p>
+    <div class="hero-cta">
+      <a class="btn" href="tel:+17046812667">Call (704) 681-2667</a>
+      <a class="btn ghost" href="contact.html">Get a Quote</a>
+    </div>
+  </div>
+</section>
+<main class="container">
+
+<section class="grid two">
+  <div>
+    <h2>Masonry</h2>
+    <p>From functional retaining walls to clean brick repairs and stone veneers.</p>
+    <ul class="checklist">
+      <li>Block retaining walls</li>
+      <li>Brick repairs & tuckpointing</li>
+      <li>Stone veneer & accents</li>
+      <li>Mailbox & entry features</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>Quality Matters</h3>
+    <p>Plumb, level, and properly drained walls with neat joints and matching mortar.</p>
+    <a class="btn" href="contact.html">Get a masonry quote</a>
+  </div>
 </section>
 
 </main>
+
 <footer class="site-footer">
-  <div>
-    <strong>Mullis Land Worx</strong> • Grading · Concrete · Masonry · Landscaping
-    <br>Monroe & Greater Charlotte, NC • <a href="tel:+17046812667">704‑681‑2667</a> • <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a>
+  <div class="container grid three">
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+17046812667">(704) 681-2667</a><br>
+      <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a><br>
+      Monroe, NC • Union County</p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Sat: 7:00a–6:00p<br>Sun: By appointment</p>
+    </div>
+    <div>
+      <h4>Fully Insured</h4>
+      <p>Grading • Concrete • Masonry • Landscaping</p>
+      <a class="btn" href="tel:+17046812667">Call for a fast quote</a>
+    </div>
   </div>
-  <div class="tiny">© 2025 Mullis Land Worx. Insured.</div>
+  <div class="legal">&copy; 2025 Mullis Land Worx. All rights reserved.</div>
 </footer>
+
 </body>
 </html>

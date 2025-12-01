@@ -3,74 +3,103 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home • Mullis Land Worx</title>
-  <meta name="description" content="Mullis Land Worx — Grading, Concrete, Masonry, Landscaping in the Monroe / Charlotte NC area.">
+  <title>Home</title>
+  <meta name="description" content="Mullis Land Worx — Home">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
+
 <header class="site-header">
-  <a class="brand" href="index.html">
-    <img src='assets/logo.jpg' alt='Mullis Land Worx logo'>
-  </a>
-  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-  <nav class="site-nav">
-    <a href="grading.html">Grading</a>
-    <a href="concrete.html">Concrete</a>
-    <a href="masonry.html">Masonry</a>
-    <a href="landscaping.html">Landscaping</a>
-    <a href="contact.html" class="cta">Free Quote</a>
-  </nav>
+  <div class="container flex between center">
+    <a class="brand" href="/"><img src="logo.jpg" alt="Mullis Land Worx logo" onerror="this.style.display='none';"><span>Mullis Land Worx</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="grading.html">Grading</a>
+      <a href="concrete.html">Concrete</a>
+      <a href="masonry.html">Masonry</a>
+      <a href="landscaping.html">Landscaping</a>
+      <a class="cta" href="contact.html">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Menu" onclick="toggleMenu()">☰</button>
+  </div>
 </header>
-<main>
 
 <section class="hero">
-  <div class="hero-inner">
-    <h1>Land & Hardscape Pros in Union County</h1>
-    <p>Brush‑cutting, lot clearing, precision grading, concrete pads & driveways, block & brick, and full‑service landscaping.</p>
-    <div class="hero-ctas">
-      <a class="btn btn-primary" href="contact.html">Get a Free Quote</a>
-      <a class="btn btn-ghost" href="#services">See Services</a>
+  <div class="container">
+    <h1>Grading • Concrete • Masonry • Landscaping</h1>
+    <p>Union County’s detail‑driven site & landscape crew.</p>
+    <div class="hero-cta">
+      <a class="btn" href="tel:+17046812667">Call (704) 681-2667</a>
+      <a class="btn ghost" href="contact.html">Get a Quote</a>
     </div>
   </div>
 </section>
+<main class="container">
 
-<section id="services" class="cards">
-  <article class="card">
-    <h3>Grading</h3>
-    <p>Driveways, pads, swales, drainage fixes, final grade & rough‑cut clearing with skid steer / mulcher.</p>
-    <a href="grading.html" class="card-link">Learn more →</a>
-  </article>
-  <article class="card">
+<section class="cards">
+  <a class="card" href="grading.html">
+    <h3>Grading & Site Prep</h3>
+    <p>Lot clearing, rough/final grading, driveway shaping, pad prep, swales & drainage.</p>
+  </a>
+  <a class="card" href="concrete.html">
     <h3>Concrete</h3>
-    <p>Pads, patios, walkways, extensions, broom finish, mesh/rebar, pump‑truck coordination — turnkey.</p>
-    <a href="concrete.html" class="card-link">Learn more →</a>
-  </article>
-  <article class="card">
+    <p>Patios, pads, walkways, steps, driveway extensions, demo & haul‑off.</p>
+  </a>
+  <a class="card" href="masonry.html">
     <h3>Masonry</h3>
-    <p>Block walls, brick work, tuck‑pointing, steps, planters, radius walls, mailbox piers.</p>
-    <a href="masonry.html" class="card-link">Learn more →</a>
-  </article>
-  <article class="card">
+    <p>Retaining/block walls, brick repairs, tuckpointing, decorative stone & veneers.</p>
+  </a>
+  <a class="card" href="landscaping.html">
     <h3>Landscaping</h3>
-    <p>Bed makeovers, rock/mulch, sod & fescue, plantings, arborvitae screens, cleanup & maintenance.</p>
-    <a href="landscaping.html" class="card-link">Learn more →</a>
-  </article>
+    <p>Mulch & pine needles, plant installs, sod, brush‑cutting, seasonal cleanups.</p>
+  </a>
+</section>
+
+<section class="feature grid two">
+  <div>
+    <h2>Local, reliable, and detail‑driven.</h2>
+    <p>We’re a Monroe, NC based small business delivering clean grades, solid concrete, and sharp landscaping—at straight‑talk pricing.</p>
+    <ul class="checklist">
+      <li>Fast quotes and clear breakdowns</li>
+      <li>50% or 25% deposit options</li>
+      <li>Fully insured • Builder & HOA friendly</li>
+    </ul>
+    <a class="btn" href="contact.html">Request a Quote</a>
+  </div>
+  <div class="box note">
+    <h3>Service Area</h3>
+    <p>Union County • Charlotte • Monroe • Indian Trail • Matthews • Stallings • Waxhaw • Wingate and nearby.</p>
+  </div>
 </section>
 
 <section class="cta-wide">
   <h2>Need it done right the first time?</h2>
-  <p>Text or call <a href="tel:+17046812667">704‑681‑2667</a>. Fast, friendly quotes.</p>
-  <a class="btn btn-primary" href="contact.html">Request a Quote</a>
+  <a class="btn big" href="tel:+17046812667">Call {phone}</a>
 </section>
 
 </main>
+
 <footer class="site-footer">
-  <div>
-    <strong>Mullis Land Worx</strong> • Grading · Concrete · Masonry · Landscaping
-    <br>Monroe & Greater Charlotte, NC • <a href="tel:+17046812667">704‑681‑2667</a> • <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a>
+  <div class="container grid three">
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+17046812667">(704) 681-2667</a><br>
+      <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a><br>
+      Monroe, NC • Union County</p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Sat: 7:00a–6:00p<br>Sun: By appointment</p>
+    </div>
+    <div>
+      <h4>Fully Insured</h4>
+      <p>Grading • Concrete • Masonry • Landscaping</p>
+      <a class="btn" href="tel:+17046812667">Call for a fast quote</a>
+    </div>
   </div>
-  <div class="tiny">© 2025 Mullis Land Worx. Insured.</div>
+  <div class="legal">&copy; 2025 Mullis Land Worx. All rights reserved.</div>
 </footer>
+
 </body>
 </html>

@@ -3,61 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Concrete • Mullis Land Worx</title>
-  <meta name="description" content="Mullis Land Worx — Grading, Concrete, Masonry, Landscaping in the Monroe / Charlotte NC area.">
+  <title>Concrete</title>
+  <meta name="description" content="Mullis Land Worx — Concrete">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
+
 <header class="site-header">
-  <a class="brand" href="index.html">
-    <img src='assets/logo.jpg' alt='Mullis Land Worx logo'>
-  </a>
-  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-  <nav class="site-nav">
-    <a href="grading.html">Grading</a>
-    <a href="concrete.html">Concrete</a>
-    <a href="masonry.html">Masonry</a>
-    <a href="landscaping.html">Landscaping</a>
-    <a href="contact.html" class="cta">Free Quote</a>
-  </nav>
-</header>
-<main>
-
-<section class="page-hero">
-  <h1>Concrete</h1>
-  <p>Professional, insured, and local.</p>
-</section>
-
-<section class="two-col">
-  <div>
-    <h2>What we do</h2>
-    <ul class="checklist">
-      <li>10x20, 12x12, 21x16 pads & custom sizes</li>
-<li>Driveway extensions & walkways</li>
-<li>Pump truck coordination, mesh/rebar</li>
-<li>Broom, smooth, or light exposed finishes</li>
-<li>Form, pour, finish — turnkey pricing</li>
-    </ul>
-    <a class="btn btn-primary" href="contact.html">Get a Quote</a>
+  <div class="container flex between center">
+    <a class="brand" href="/"><img src="logo.jpg" alt="Mullis Land Worx logo" onerror="this.style.display='none';"><span>Mullis Land Worx</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="grading.html">Grading</a>
+      <a href="concrete.html">Concrete</a>
+      <a href="masonry.html">Masonry</a>
+      <a href="landscaping.html">Landscaping</a>
+      <a class="cta" href="contact.html">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Menu" onclick="toggleMenu()">☰</button>
   </div>
-  <aside class="quote-callout">
-    <h3>Typical turnaround</h3>
-    <p>Site visit in 24‑48 hrs, work scheduled ASAP.</p>
-    <h3>Service area</h3>
-    <p>Monroe • Unionville • Indian Trail • Matthews • Stallings • Mint Hill • Charlotte</p>
-    <h3>Contact</h3>
-    <p><a href="tel:+17046812667">704‑681‑2667</a><br><a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a></p>
-  </aside>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Concrete Work</h1>
+    <p>Pads, patios, steps, walkways & extensions.</p>
+    <div class="hero-cta">
+      <a class="btn" href="tel:+17046812667">Call (704) 681-2667</a>
+      <a class="btn ghost" href="contact.html">Get a Quote</a>
+    </div>
+  </div>
+</section>
+<main class="container">
+
+<section class="grid two">
+  <div>
+    <h2>Concrete</h2>
+    <p>Clean forms, proper base, reinforcement as needed, smooth or broom finishes.</p>
+    <ul class="checklist">
+      <li>Patios & pads (shed/garage/batting cage)</li>
+      <li>Steps, walkways & extensions</li>
+      <li>Demolition & haul‑off</li>
+      <li>Pump truck coordination</li>
+      <li>Control joints & clean finish</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>Typical Options</h3>
+    <p>4–6" slabs, fiber mesh or rebar, stone base, and saw cuts. Ask about decorative borders.</p>
+    <a class="btn" href="contact.html">Get a concrete quote</a>
+  </div>
 </section>
 
 </main>
+
 <footer class="site-footer">
-  <div>
-    <strong>Mullis Land Worx</strong> • Grading · Concrete · Masonry · Landscaping
-    <br>Monroe & Greater Charlotte, NC • <a href="tel:+17046812667">704‑681‑2667</a> • <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a>
+  <div class="container grid three">
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+17046812667">(704) 681-2667</a><br>
+      <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a><br>
+      Monroe, NC • Union County</p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Sat: 7:00a–6:00p<br>Sun: By appointment</p>
+    </div>
+    <div>
+      <h4>Fully Insured</h4>
+      <p>Grading • Concrete • Masonry • Landscaping</p>
+      <a class="btn" href="tel:+17046812667">Call for a fast quote</a>
+    </div>
   </div>
-  <div class="tiny">© 2025 Mullis Land Worx. Insured.</div>
+  <div class="legal">&copy; 2025 Mullis Land Worx. All rights reserved.</div>
 </footer>
+
 </body>
 </html>

@@ -1,9 +1,4 @@
 
-const btn = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.site-nav');
-if(btn && nav){
-  btn.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
-    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
+function toggleMenu(){
+  document.querySelector('.site-header').classList.toggle('open');
 }
