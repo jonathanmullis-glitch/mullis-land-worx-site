@@ -1,7 +1,21 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><link rel='stylesheet' href='styles.css'><title>Contact</title></head><body><header class="topbar">
-  <div class="inner">
-    <img src="logo.jpg" class="brand">
-    <nav>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Mullis Land Worx</title>
+  <meta name="description" content="Mullis Land Worx — Grading, Concrete, Masonry, Landscaping in Monroe & the Charlotte area.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Mullis Land Worx logo" class="logo" onerror="this.style.display='none'">
+      <span class="brand-text">Mullis Land Worx</span>
+    </a>
+    <nav class="nav">
       <a href="index.html">Home</a>
       <a href="grading.html">Grading</a>
       <a href="concrete.html">Concrete</a>
@@ -9,8 +23,59 @@
       <a href="landscaping.html">Landscaping</a>
       <a href="contact.html" class="cta">Contact</a>
     </nav>
+    <button class="menu" aria-label="menu" onclick="toggleMenu()">☰</button>
   </div>
 </header>
-<div class='section'><h1>Contact</h1><p>Call 704-681-2667 or email JonathanMullis@MullisLandWorx.com</p></div><footer class="footer">
-  <p>&copy; 2025 Mullis Land Worx • Monroe & Charlotte NC • 704-681-2667</p>
-</footer></body></html>
+
+<section class="page wrap">
+  <h1>Request a Quote</h1>
+  <p class="lead">Fast, straightforward estimates — call or send a message.</p>
+  <div class="bar"></div>
+  <div class="contact-grid">
+    <div class="card">
+      <h3>Call or Text</h3>
+      <p><a class="btn" href="tel:+17046812667">704-681-2667</a></p>
+      <p>Email: <a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a></p>
+      <p>Monroe, NC • Charlotte area</p>
+    </div>
+    <form class="card" action="mailto:JonathanMullis@MullisLandWorx.com" method="post" enctype="text/plain">
+      <label>Name <input name="Name" required></label>
+      <label>Phone <input name="Phone" required></label>
+      <label>Email <input type="email" name="Email"></label>
+      <label>Service 
+        <select name="Service">
+          <option>Grading</option>
+          <option>Concrete</option>
+          <option>Masonry</option>
+          <option>Landscaping</option>
+        </select>
+      </label>
+      <label>Details <textarea name="Details" rows="5" placeholder="Tell us what you need…"></textarea></label>
+      <button class="btn" type="submit">Send</button>
+      <p class="tiny">Prefer a call? Tap the phone button above.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+17046812667">704-681-2667</a><br><a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a><br>Monroe, NC — Charlotte area</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p>Grading • Concrete • Masonry • Landscaping</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon–Sat · 7am–6pm</p>
+      </div>
+    </div>
+    <p class="copy">© 2025 Mullis Land Worx</p>
+  </div>
+</footer>
+</body>
+</html>
+

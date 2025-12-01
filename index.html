@@ -1,10 +1,21 @@
-<!DOCTYPE html><html><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css"><title>Home</title></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mullis Land Worx | Grading • Concrete • Masonry • Landscaping</title>
+  <meta name="description" content="Mullis Land Worx — Grading, Concrete, Masonry, Landscaping in Monroe & the Charlotte area.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
 <header class="topbar">
-  <div class="inner">
-    <img src="logo.jpg" class="brand">
-    <nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Mullis Land Worx logo" class="logo" onerror="this.style.display='none'">
+      <span class="brand-text">Mullis Land Worx</span>
+    </a>
+    <nav class="nav">
       <a href="index.html">Home</a>
       <a href="grading.html">Grading</a>
       <a href="concrete.html">Concrete</a>
@@ -12,19 +23,63 @@
       <a href="landscaping.html">Landscaping</a>
       <a href="contact.html" class="cta">Contact</a>
     </nav>
+    <button class="menu" aria-label="menu" onclick="toggleMenu()">☰</button>
   </div>
 </header>
 
-<section class="hero"><h1>Grading • Masonry • Concrete</h1>
-<p>Professional site work & hardscapes in Monroe & Charlotte NC</p></section>
-<div class="section">
-<h2>Our Services</h2>
-<div class="cards">
-<div class="card"><h3>Grading</h3><p>Driveways, pads, swales & more.</p></div>
-<div class="card"><h3>Concrete</h3><p>Pads, driveways, walkways & more.</p></div>
-<div class="card"><h3>Masonry</h3><p>Block, brick, veneer, retaining walls.</p></div>
-<div class="card"><h3>Landscaping</h3><p>Beds, mulch, plant installs & cleanup.</p></div>
-</div></div>
+<section class="hero">
+  <div class="wrap hero-inner">
+    <h1>Grading • Concrete • Masonry • Landscaping</h1>
+    <p class="sub">Locally owned in Monroe — servicing the Charlotte area.</p>
+    <div class="actions">
+      <a class="btn" href="tel:+17046812667">Call 704-681-2667</a>
+      <a class="btn ghost" href="contact.html">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="cards wrap">
+  <article class="card">
+    <h2>Grading</h2>
+    <p>We handle all types of grading work including driveway reshaping, correcting drainage issues, site prep for new home construction, and full lot clearing. Whether you need improved water flow, a new pad, or a clean rough grade, we’ve got the equipment and experience to get it done right.</p>
+    <a class="more" href="grading.html">Learn more →</a>
+  </article>
+  <article class="card">
+    <h2>Concrete</h2>
+    <p>We pour concrete driveways, sidewalks, building pads, and footings with proper base prep and clean finishes. From residential projects to small commercial work, we deliver durable concrete built to last.</p>
+    <a class="more" href="concrete.html">Learn more →</a>
+  </article>
+  <article class="card">
+    <h2>Masonry</h2>
+    <p>We specialize in brick and block foundations, brick veneers, steps, retaining walls, outdoor fireplaces, and both new construction and repair work. Every project is built with clean lines, proper footing, and attention to detail.</p>
+    <a class="more" href="masonry.html">Learn more →</a>
+  </article>
+  <article class="card">
+    <h2>Landscaping</h2>
+    <p>We offer weekly yard maintenance along with mulch and pine needle installation, shrub trimming, planting, and landscape retaining walls. Whether it’s routine care or upgrading curb appeal, we keep your property looking clean and sharp.</p>
+    <a class="more" href="landscaping.html">Learn more →</a>
+  </article>
+</section>
+
 <footer class="footer">
-  <p>&copy; 2025 Mullis Land Worx • Monroe & Charlotte NC • 704-681-2667</p>
-</footer></body></html>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+17046812667">704-681-2667</a><br><a href="mailto:JonathanMullis@MullisLandWorx.com">JonathanMullis@MullisLandWorx.com</a><br>Monroe, NC — Charlotte area</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p>Grading • Concrete • Masonry • Landscaping</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon–Sat · 7am–6pm</p>
+      </div>
+    </div>
+    <p class="copy">© 2025 Mullis Land Worx</p>
+  </div>
+</footer>
+</body>
+</html>
+

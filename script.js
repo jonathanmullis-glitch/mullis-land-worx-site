@@ -1,4 +1,2 @@
 
-function toggleMenu(){
-  document.querySelector('.site-header').classList.toggle('open');
-}
+function toggleMenu(){document.querySelector('.topbar').classList.toggle('open');}
